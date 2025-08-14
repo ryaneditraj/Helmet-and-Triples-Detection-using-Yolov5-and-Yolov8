@@ -1,0 +1,1910 @@
+{
+    "triples": {
+        "sharvin": {
+            "name": "Sharvin Hariharan",
+            "offence": "Triple Riding",
+            "number_plate": "tn75af3897",
+            "fine": 1000,
+            "location": "mvc",
+            "fine_applied": true
+        },
+        "THRIPLES_session_20250731_123403": {
+            "name": "Ryan",
+            "offence": "Triple Riding",
+            "number_plate": "109201920192",
+            "fine": 1210,
+            "location": "Chennai",
+            "fine_applied": true
+        },
+        "THRIPLES_session_20250731_150436": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250731_215754": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250801_144149": {
+            "name": "Funny guy",
+            "offence": "Triple Riding",
+            "number_plate": "tn75af3897",
+            "fine": 100,
+            "location": "Chennai",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250801_144933": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_105404": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_120407": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_121709": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": true
+        },
+        "THRIPLES_session_20250802_122747": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_122737": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": true
+        },
+        "THRIPLES_session_20250802_124324": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": true
+        },
+        "THRIPLES_session_20250802_124643": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": true
+        },
+        "THRIPLES_session_20250802_125224": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_125534": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_135248": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_135639": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_142724": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_142424": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_143948": {
+            "name": "Gopal",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_144000": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_144350": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_144339": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_145720": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_150906": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_151544": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250802_185318": {
+            "name": "Fabio",
+            "offence": "Triple Riding",
+            "number_plate": "tn687yi7t786",
+            "fine": 0,
+            "location": "",
+            "fine_applied": true
+        },
+        "THRIPLES_session_20250808_122048": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250808_122038": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "THRIPLES_session_20250808_153636": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        }
+    },
+    "no_helmet": {
+        "idk tbh": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_123611": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_143341": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_150456": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_150506": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_session_20250731_123611": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "offend": {
+            "name": "IDK",
+            "offence": "No Helmet",
+            "number_plate": "tn75ar2345",
+            "fine": 10000,
+            "location": "sis",
+            "fine_applied": true
+        },
+        "NO_HELMET_session_20250731_215621": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_215645": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_215706": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_215656": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_215635": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_215717": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_215740": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_215751": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_215801": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_095815": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_215901": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_095837": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_095827": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250731_215927": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_113153": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_113133": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_113203": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_113143": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_113221": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132021": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132100": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132047": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132111": {
+            "name": "DORIN BOSCO ",
+            "offence": "No Helmet",
+            "number_plate": "TN75AF3897",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132036": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132241": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132442": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132136": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132146": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132329": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132125": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132319": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132402": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132432": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132206": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132422": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132216": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132227": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132412": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132307": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132504": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132156": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132339": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132349": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132257": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_132454": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_143951": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_143919": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_143929": {
+            "name": "Ryan",
+            "offence": "No Helmet",
+            "number_plate": "wuytweuy9",
+            "fine": 1010,
+            "location": "sis",
+            "fine_applied": true
+        },
+        "NO_HELMET_session_20250801_143941": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_144657": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_144708": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_144738": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_144728": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_144718": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250801_144647": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_105402": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_120407": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_121711": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_121701": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_122736": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_122722": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_122746": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_124200": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_124322": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_124150": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_124229": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_124211": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_124637": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_125225": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_125215": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_125537": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_125527": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_135311": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_135239": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_135249": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_135154": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_135144": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_135133": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_135637": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_135648": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_141523": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_142713": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_142724": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_142430": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_142410": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_142420": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_142734": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_143948": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_143958": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_144348": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_144338": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_144757": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_145715": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_145610": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_150339": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_150905": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_151542": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_184620": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_185103": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_184610": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_185306": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_184703": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_184600": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_184653": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_185329": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_185316": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_184630": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_184549": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250803_194813": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_185339": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_185349": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_185409": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_185419": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250803_194937": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250802_185359": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250803_194803": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250803_194947": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215710": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220252": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220432": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220051": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_213012": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215911": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220201": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215720": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220402": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215921": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220231": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250808_122038": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220652": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220512": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215630": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215831": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215800": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220141": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220522": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220342": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220743": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215640": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220302": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220101": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215841": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220332": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220131": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220552": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220733": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220702": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220442": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220021": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_213000": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220813": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220612": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220011": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220823": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215750": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215951": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220241": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250808_122048": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220622": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220001": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220833": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215740": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250808_113541": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215941": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220632": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220452": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220031": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220803": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220602": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_212950": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220322": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220121": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220542": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220723": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220712": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215650": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220312": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220111": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215851": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220151": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220532": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220352": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220753": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215611": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220502": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215821": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215810": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220843": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215730": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220412": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220221": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215931": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220642": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215700": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220422": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220041": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_220211": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250807_215901": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250808_122247": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 10,
+            "location": "",
+            "fine_applied": true
+        },
+        "NO_HELMET_session_20250808_153634": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "NO_HELMET_session_20250808_153644": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        }
+    }
+}

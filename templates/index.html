@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Offender Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .image-card {
+            cursor: pointer;
+            border: 3px solid transparent;
+            transition: transform 0.2s;
+            height: 280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .fine-applied { border-color: green !important; }
+        .fine-pending { border-color: red !important; }
+        .image-card img {
+            max-height: 150px;
+            object-fit: contain;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        .modal-img {
+            width: 100%;
+            margin-bottom: 15px;
+            border-radius: 6px;
+        }
+        .form-control, .form-check-input {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">🚨 Offender Dashboard</span>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <ul class="nav nav-tabs" id="offenderTabs" role="tablist">
+        {% for category in offenders.keys() %}
+        <li class="nav-item" role="presentation">
+            <button
+              class="nav-link {% if loop.first %}active{% endif %}"
+              id="{{ category }}-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#{{ category }}"
+              type="button"
+              role="tab"
+              aria-controls="{{ category }}"
+              aria-selected="{% if loop.first %}true{% else %}false{% endif %}"
+            >
+              {{ 'Triple Riding' if category == 'triples' else 'No Helmet' }}
+            </button>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <div class="tab-content mt-3">
+        {% for category, offender_list in offenders.items() %}
+        <div
+          class="tab-pane fade {% if loop.first %}show active{% endif %}"
+          id="{{ category }}"
+          role="tabpanel"
+          aria-labelledby="{{ category }}-tab"
+        >
+            <div class="row">
+                {% for offender in offender_list %}
+                <div class="col-md-3 mb-4">
+                    <div
+                      class="card image-card {% if offender.fine_applied %}fine-applied{% else %}fine-pending{% endif %}"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modal-{{ category }}-{{ offender.folder }}"
+                    >
+                        {% if offender.images|length > 0 %}
+                        <img src="{{ url_for('static', filename=category + '/' + offender.folder + '/' + offender.images[0]) }}" alt="Offender Image" />
+                        {% else %}
+                        <div style="height:150px; display:flex; align-items:center; justify-content:center; background:#eee; border-radius:6px;">
+                          No Image
+                        </div>
+                        {% endif %}
+                        <div class="card-body text-center">
+                            <h6 class="card-title">{{ offender.name or "Unnamed Offender" }}</h6>
+                            <small class="text-muted">{{ offender.location or "Location Unknown" }}</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal-{{ category }}-{{ offender.folder }}" tabindex="-1">
+                  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 c lass="modal-title">{{ offender.name or "Unnamed Offender" }}</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-md-6">
+                            {% for img in offender.images %}
+                            <img src="{{ url_for('static', filename=category + '/' + offender.folder + '/' + img) }}" class="modal-img" alt="Offender Photo" />
+                            {% endfor %}
+                          </div>
+                          <div class="col-md-6">
+                            <form>
+                              <label>Name</label>
+                              <input type="text" class="form-control editable-field" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="name" value="{{ offender.name }}" />
+                              <label>Offence</label>
+                              <input type="text" class="form-control" value="{{ offender.offence }}" readonly />
+                              <label>Number Plate</label>
+                              <input type="text" class="form-control editable-field" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="number_plate" value="{{ offender.number_plate }}" />
+                              <label>Fine Amount (₹)</label>
+                              <input type="number" class="form-control editable-field" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="fine" value="{{ offender.fine }}" min="0" />
+                              <label>Location</label>
+                              <input type="text" class="form-control editable-field" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="location" value="{{ offender.location }}" />
+                              <div class="form-check mt-3">
+                                <input class="form-check-input editable-checkbox" type="checkbox" id="fineApplied-{{ category }}-{{ offender.folder }}" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="fine_applied" {% if offender.fine_applied %}checked{% endif %} />
+                                <label class="form-check-label" for="fineApplied-{{ category }}-{{ offender.folder }}">Fine Applied</label>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(function () {
+  function updateOffender(category, folder, field, value) {
+    $.ajax({
+      url: "/update_offender",
+      method: "POST",
+      contentType: "application/json",
+      data: JSON.stringify({ category, folder, field, value }),
+      success: function (res) {
+        if (res.status === "success") {
+          if (field === "fine_applied") {
+            const card = $(`.card[data-bs-target='#modal-${category}-${folder}']`);
+            card.toggleClass("fine-applied", value).toggleClass("fine-pending", !value);
+          }
+        } else {
+          alert("Error: " + (res.message || "Update failed"));
+        }
+      },
+      error: function () {
+        alert("Failed to update offender data");
+      },
+    });
+  }
+
+  $(".editable-field").on("change", function () {
+    const input = $(this);
+    updateOffender(input.data("category"), input.data("folder"), input.data("field"), input.val());
+  });
+
+  $(".editable-checkbox").on("change", function () {
+    const box = $(this);
+    updateOffender(box.data("category"), box.data("folder"), box.data("field"), box.is(":checked"));
+  });
+});
+</script>
+</body>
+</html>
