@@ -29,7 +29,7 @@ Security fixes in this repository apply to the current `main` branch. There are 
 - The dashboard has **no accounts**. Anyone who can open the port can view and edit records. Leave `FLASK_HOST` at `127.0.0.1`. Do not port-forward it.
 - `triples.py` and `test.py` call `torch.hub` with `trust_repo=True`. That clones `github.com/ultralytics/yolov5` and executes it. Review that checkout before use, or run without a network after the hub cache exists.
 - `.pt` checkpoints are PyTorch pickles. Load only the files shipped here, or files you trained. Do not load a checkpoint from a stranger.
-- `offenders_data.json` and the snapshot folders can hold names, places, and plate numbers. Runtime folders are gitignored. Older revisions of `offenders_data.json` still contain personal data because history was not rewritten. Treat those revisions as public.
+- `offenders_data.json` and the snapshot folders can hold names, places, and plate numbers if someone types them in. Runtime capture folders are gitignored. Do not commit new records that contain that information.
 - There is no rate limit on the update route.
 - `test.py` is a development copy of the triple-riding loop. It writes `session_*` folders in the working directory instead of `static/triples/`.
 
