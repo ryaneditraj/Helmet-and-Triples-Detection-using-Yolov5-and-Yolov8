@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets and config
+.env
+.env.*
+!.env.example
+
+# Runtime captures can contain faces and license plates.
+static/no_helmet/*
+!static/no_helmet/.gitkeep
+static/triples/*
+!static/triples/.gitkeep
+session_*/
+offenders_data.json.tmp
+offenders_data.json.*.tmp
+
+# Training and tool output
+runs/
+wandb/
+*.log
+.DS_Store
+.idea/
+.vscode/

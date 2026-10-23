@@ -1,0 +1,41 @@
+# Helmet and Triple Riding Detection
+
+> Open-source computer-vision project by Ryan Editraj that flags motorcycle riders without helmets and triple riding, then reviews the snapshots on a local dashboard.
+
+This repository uses a custom YOLOv8 checkpoint (`best.pt`, classes "With Helmet" and "Without Helmet") and the YOLOv5s checkpoint (`yolov5s.pt`) for person and motorcycle boxes. It is a local road-safety experiment, not an official enforcement system, and it does not read number plates by itself.
+
+## How to run
+
+- Dashboard: `python offender.py`, then open http://127.0.0.1:5000
+- No-helmet camera: `python helmets.py`
+- Triple-riding camera: `python triples.py`
+- Install: `pip install -r requirements.txt`
+- License: GNU AGPL-3.0. Source: https://github.com/ryaneditraj/Helmet-and-Triples-Detection-using-Yolov5-and-Yolov8
+
+## Questions people ask
+
+### What does this project detect?
+
+Riders without helmets, and motorcycles carrying three or more people whose boxes sit within 20 pixels of each other and of the motorcycle.
+
+### Which models does it use?
+
+YOLOv8 weights in `best.pt` for helmets. YOLOv5s weights in `yolov5s.pt` for people and motorcycles. `yolov8n.pt` is the stock nano checkpoint and is not loaded by the scripts.
+
+### Where are snapshots saved?
+
+No-helmet frames go to `static/no_helmet/NO_HELMET_session_*`. Triple-riding frames go to `static/triples/THRIPLES_session_*` (the folder prefix is spelled THRIPLES in the code). `test.py` is a development copy that writes `session_*` in the working directory.
+
+### Is the dashboard safe to put on the internet?
+
+No. It has no login. Keep `FLASK_HOST` on 127.0.0.1. The page sends `noindex` because the records can contain names and plate numbers.
+
+### Who maintains it?
+
+Ryan Editraj, https://github.com/ryaneditraj and https://instagram.com/ryaneditraj.
+
+## Links
+
+- [Repository](https://github.com/ryaneditraj/Helmet-and-Triples-Detection-using-Yolov5-and-Yolov8)
+- [Security policy](https://github.com/ryaneditraj/Helmet-and-Triples-Detection-using-Yolov5-and-Yolov8/blob/main/SECURITY.md)
+- [License](https://github.com/ryaneditraj/Helmet-and-Triples-Detection-using-Yolov5-and-Yolov8/blob/main/LICENSE)

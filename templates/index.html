@@ -2,37 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Offender Dashboard</title>
+    <title>Helmet and Triple Riding Detection Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <style>
-        .image-card {
-            cursor: pointer;
-            border: 3px solid transparent;
-            transition: transform 0.2s;
-            height: 280px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .fine-applied { border-color: green !important; }
-        .fine-pending { border-color: red !important; }
-        .image-card img {
-            max-height: 150px;
-            object-fit: contain;
-            border-radius: 6px;
-            margin-bottom: 10px;
-        }
-        .modal-img {
-            width: 100%;
-            margin-bottom: 15px;
-            border-radius: 6px;
-        }
-        .form-control, .form-check-input {
-            margin-bottom: 10px;
-        }
-    </style>
+    <meta name="description" content="Local dashboard for YOLOv8 no-helmet detection and YOLOv5 triple-riding detection. Review motorcycle violation snapshots, fines, and number plates on your own machine." />
+    <meta name="keywords" content="helmet detection, triple riding detection, YOLOv8, YOLOv5, motorcycle safety, traffic violation dashboard, computer vision, Flask, OpenCV" />
+    <meta name="author" content="Ryan Editraj" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#212529" />
+    <link rel="canonical" href="https://github.com/ryaneditraj/Helmet-and-Triples-Detection-using-Yolov5-and-Yolov8" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Helmet and Triple Riding Detection Dashboard" />
+    <meta property="og:description" content="Review no-helmet and triple-riding snapshots from YOLOv8 and YOLOv5 on a local Flask dashboard." />
+    <meta property="og:url" content="https://github.com/ryaneditraj/Helmet-and-Triples-Detection-using-Yolov5-and-Yolov8" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/ryaneditraj/Helmet-and-Triples-Detection-using-Yolov5-and-Yolov8/main/docs/screenshots/dashboard.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Helmet and Triple Riding Detection Dashboard" />
+    <meta name="twitter:description" content="Review no-helmet and triple-riding snapshots from YOLOv8 and YOLOv5 on a local Flask dashboard." />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/ryaneditraj/Helmet-and-Triples-Detection-using-Yolov5-and-Yolov8/main/docs/screenshots/dashboard.png" />
+    <meta name="csrf-token" content="{{ csrf_token }}" />
+    <link href="{{ url_for('vendor_css') }}" rel="stylesheet" />
+    <link href="{{ url_for('static', filename='css/dashboard.css') }}" rel="stylesheet" />
+    <script type="application/ld+json">{{ structured_data | safe }}</script>
 </head>
 <body>
 <nav class="navbar navbar-dark bg-dark">
@@ -70,19 +60,26 @@
           aria-labelledby="{{ category }}-tab"
         >
             <div class="row">
+                {% if offender_list|length == 0 %}
+                <div class="col-12">
+                    <div class="alert alert-secondary" role="status">
+                      No captures in this category yet. Run helmets.py or triples.py and the new session folder will show up here.
+                    </div>
+                </div>
+                {% endif %}
                 {% for offender in offender_list %}
                 <div class="col-md-3 mb-4">
                     <div
                       class="card image-card {% if offender.fine_applied %}fine-applied{% else %}fine-pending{% endif %}"
                       data-bs-toggle="modal"
                       data-bs-target="#modal-{{ category }}-{{ offender.folder }}"
+                      data-category="{{ category }}"
+                      data-folder="{{ offender.folder }}"
                     >
                         {% if offender.images|length > 0 %}
-                        <img src="{{ url_for('static', filename=category + '/' + offender.folder + '/' + offender.images[0]) }}" alt="Offender Image" />
+                        <img src="{{ url_for('static', filename=category + '/' + offender.folder + '/' + offender.images[0]) }}" alt="First snapshot for this capture session" />
                         {% else %}
-                        <div style="height:150px; display:flex; align-items:center; justify-content:center; background:#eee; border-radius:6px;">
-                          No Image
-                        </div>
+                        <div class="no-image">No Image</div>
                         {% endif %}
                         <div class="card-body text-center">
                             <h6 class="card-title">{{ offender.name or "Unnamed Offender" }}</h6>
@@ -91,33 +88,32 @@
                     </div>
                 </div>
 
-                <!-- Modal -->
                 <div class="modal fade" id="modal-{{ category }}-{{ offender.folder }}" tabindex="-1">
                   <div class="modal-dialog modal-lg modal-dialog-scrollable">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 c lass="modal-title">{{ offender.name or "Unnamed Offender" }}</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <h5 class="modal-title">{{ offender.name or "Unnamed Offender" }}</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
                         <div class="row">
                           <div class="col-md-6">
                             {% for img in offender.images %}
-                            <img src="{{ url_for('static', filename=category + '/' + offender.folder + '/' + img) }}" class="modal-img" alt="Offender Photo" />
+                            <img src="{{ url_for('static', filename=category + '/' + offender.folder + '/' + img) }}" class="modal-img" alt="Snapshot from this capture session" />
                             {% endfor %}
                           </div>
                           <div class="col-md-6">
                             <form>
                               <label>Name</label>
-                              <input type="text" class="form-control editable-field" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="name" value="{{ offender.name }}" />
+                              <input type="text" class="form-control editable-field" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="name" value="{{ offender.name }}" maxlength="200" />
                               <label>Offence</label>
                               <input type="text" class="form-control" value="{{ offender.offence }}" readonly />
                               <label>Number Plate</label>
-                              <input type="text" class="form-control editable-field" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="number_plate" value="{{ offender.number_plate }}" />
+                              <input type="text" class="form-control editable-field" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="number_plate" value="{{ offender.number_plate }}" maxlength="200" />
                               <label>Fine Amount (₹)</label>
                               <input type="number" class="form-control editable-field" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="fine" value="{{ offender.fine }}" min="0" />
                               <label>Location</label>
-                              <input type="text" class="form-control editable-field" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="location" value="{{ offender.location }}" />
+                              <input type="text" class="form-control editable-field" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="location" value="{{ offender.location }}" maxlength="200" />
                               <div class="form-check mt-3">
                                 <input class="form-check-input editable-checkbox" type="checkbox" id="fineApplied-{{ category }}-{{ offender.folder }}" data-category="{{ category }}" data-folder="{{ offender.folder }}" data-field="fine_applied" {% if offender.fine_applied %}checked{% endif %} />
                                 <label class="form-check-label" for="fineApplied-{{ category }}-{{ offender.folder }}">Fine Applied</label>
@@ -139,42 +135,13 @@
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$(function () {
-  function updateOffender(category, folder, field, value) {
-    $.ajax({
-      url: "/update_offender",
-      method: "POST",
-      contentType: "application/json",
-      data: JSON.stringify({ category, folder, field, value }),
-      success: function (res) {
-        if (res.status === "success") {
-          if (field === "fine_applied") {
-            const card = $(`.card[data-bs-target='#modal-${category}-${folder}']`);
-            card.toggleClass("fine-applied", value).toggleClass("fine-pending", !value);
-          }
-        } else {
-          alert("Error: " + (res.message || "Update failed"));
-        }
-      },
-      error: function () {
-        alert("Failed to update offender data");
-      },
-    });
-  }
+<footer class="container pb-4 site-footer text-muted small">
+    Source code for this AGPL-3.0 dashboard:
+    <a href="{{ repo_url }}">Helmet and Triple Riding Detection</a>
+    by <a href="https://github.com/ryaneditraj">Ryan Editraj</a>.
+</footer>
 
-  $(".editable-field").on("change", function () {
-    const input = $(this);
-    updateOffender(input.data("category"), input.data("folder"), input.data("field"), input.val());
-  });
-
-  $(".editable-checkbox").on("change", function () {
-    const box = $(this);
-    updateOffender(box.data("category"), box.data("folder"), box.data("field"), box.is(":checked"));
-  });
-});
-</script>
+<script src="{{ url_for('vendor_js') }}"></script>
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
 </body>
 </html>

@@ -1,0 +1,51 @@
+.image-card {
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: transform 0.2s;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fine-applied {
+    border-color: green !important;
+}
+
+.fine-pending {
+    border-color: red !important;
+}
+
+.image-card img {
+    max-height: 150px;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.no-image {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.modal-img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.form-control,
+.form-check-input {
+    margin-bottom: 10px;
+}
+
+.site-footer a {
+    color: inherit;
+}

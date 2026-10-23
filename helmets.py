@@ -1,32 +1,40 @@
-from ultralytics import YOLO
-import cv2
 import os
-from datetime import datetime, timedelta
 import time
+from datetime import datetime, timedelta
+
+import cv2
+from ultralytics import YOLO
+
+from config import camera_source, load_dotenv
+
+load_dotenv()
+
 
 def create_session_folder():
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    folder_name = f'static/no_helmet/NO_HELMET_session_{timestamp}'
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    folder_name = f"static/no_helmet/NO_HELMET_session_{timestamp}"
     os.makedirs(folder_name, exist_ok=True)
     return folder_name
 
+
 def save_snapshot(frame, folder):
-    timestamp = datetime.now().strftime('%H%M%S_%f')[:-3]
-    filename = os.path.join(folder, f'snapshot_{timestamp}.jpg')
+    timestamp = datetime.now().strftime("%H%M%S_%f")[:-3]
+    filename = os.path.join(folder, f"snapshot_{timestamp}.jpg")
     success = cv2.imwrite(filename, frame)
     if success:
         print(f"📸 Saved: {filename}")
     else:
         print("❌ Failed to save snapshot.")
 
+
 # Load YOLOv8 model
-model = YOLO("best.pt")
+model = YOLO(os.environ.get("HELMET_WEIGHTS", "best.pt"))
 
 # Open webcam
-cap = cv2.VideoCapture(int(input("ENTER SOURCE (0 for OBS, and 1 for webcam)")))
+cap = cv2.VideoCapture(camera_source())
 if not cap.isOpened():
     print("❌ Webcam could not be opened.")
-    exit()
+    raise SystemExit(1)
 
 names = model.names  # class id to label mapping
 session_folder = None
@@ -49,7 +57,7 @@ while True:
     boxes = results[0].boxes
     detected_classes = [names[int(cls)] for cls in boxes.cls]
 
-    if 'Without Helmet' in detected_classes:
+    if "Without Helmet" in detected_classes:
         now = datetime.now()
 
         # Start session if not already active
@@ -74,7 +82,7 @@ while True:
     annotated_frame = results[0].plot()
     cv2.imshow("YOLOv8 Helmet Detection", annotated_frame)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
 cap.release()
