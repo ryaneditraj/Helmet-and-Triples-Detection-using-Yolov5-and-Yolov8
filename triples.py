@@ -1,12 +1,14 @@
-import torch
-import cv2
-import numpy as np
 import os
 from datetime import datetime, timedelta
-from itertools import combinations
 
-def load_model(model_name='yolov5s'):
-    return torch.hub.load('ultralytics/yolov5', model_name, pretrained=True)
+import cv2
+
+from config import camera_source, load_dotenv
+from geometry import are_three_boxes_close, is_motorcycle_near_any_person
+from yolo_loader import load_yolov5
+
+load_dotenv()
+
 
 def get_boxes_by_class(results, target_class):
     boxes = []
@@ -18,45 +20,23 @@ def get_boxes_by_class(results, target_class):
             boxes.append((x1, y1, x2, y2))
     return boxes
 
-def box_distance(boxA, boxB):
-    ax1, ay1, ax2, ay2 = boxA
-    bx1, by1, bx2, by2 = boxB
-    dx = max(bx1 - ax2, ax1 - bx2, 0)
-    dy = max(by1 - ay2, ay1 - by2, 0)
-    return np.hypot(dx, dy)
-
-def are_three_boxes_close(boxes, threshold=20):
-    for triplet in combinations(boxes, 3):
-        dists = [
-            box_distance(triplet[0], triplet[1]),
-            box_distance(triplet[0], triplet[2]),
-            box_distance(triplet[1], triplet[2])
-        ]
-        if all(d <= threshold for d in dists):
-            return True
-    return False
-
-def is_motorcycle_near_any_person(motorcycle_boxes, person_boxes, threshold=20):
-    for m_box in motorcycle_boxes:
-        for p_box in person_boxes:
-            if box_distance(m_box, p_box) <= threshold:
-                return True
-    return False
 
 def create_session_folder():
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    folder_name = f'static/triples/THRIPLES_session_{timestamp}'
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    folder_name = f"static/triples/THRIPLES_session_{timestamp}"
     os.makedirs(folder_name, exist_ok=True)
     return folder_name
 
+
 def save_snapshot(raw_frame, folder):
-    timestamp = datetime.now().strftime('%H%M%S_%f')[:-3]
-    filename = os.path.join(folder, f'snapshot_{timestamp}.jpg')
+    timestamp = datetime.now().strftime("%H%M%S_%f")[:-3]
+    filename = os.path.join(folder, f"snapshot_{timestamp}.jpg")
     success = cv2.imwrite(filename, raw_frame)
     if success:
         print(f"📸 Saved: {filename}")
     else:
         print("❌ Failed to save snapshot.")
+
 
 def detect_from_webcam(model, source=1, box_distance_threshold=20):
     cap = cv2.VideoCapture(source)
@@ -81,16 +61,18 @@ def detect_from_webcam(model, source=1, box_distance_threshold=20):
         results = model(frame)
 
         # Get detection results
-        person_boxes = get_boxes_by_class(results, 'person')
-        motorcycle_boxes = get_boxes_by_class(results, 'motorcycle')
+        person_boxes = get_boxes_by_class(results, "person")
+        motorcycle_boxes = get_boxes_by_class(results, "motorcycle")
         person_count = len(person_boxes)
 
         # Snapshot condition check
         condition = (
-            person_count >= 3 and
-            are_three_boxes_close(person_boxes, box_distance_threshold) and
-            len(motorcycle_boxes) >= 1 and
-            is_motorcycle_near_any_person(motorcycle_boxes, person_boxes, box_distance_threshold)
+            person_count >= 3
+            and are_three_boxes_close(person_boxes, box_distance_threshold)
+            and len(motorcycle_boxes) >= 1
+            and is_motorcycle_near_any_person(
+                motorcycle_boxes, person_boxes, box_distance_threshold
+            )
         )
 
         now = datetime.now()
@@ -111,12 +93,17 @@ def detect_from_webcam(model, source=1, box_distance_threshold=20):
         annotated = results.ims[0]
         cv2.imshow("AI Dashcam - YOLOv5", annotated)
 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        if cv2.waitKey(1) & 0xFF == ord("q"):
             break
 
     cap.release()
     cv2.destroyAllWindows()
 
-if __name__ == '__main__':
-    model = load_model('yolov5s')  # or replace with 'best.pt' if needed
-    detect_from_webcam(model, source=int(input("ENTER SOURCE (0 for OBS, and 1 for webcam)")), box_distance_threshold=20)
+
+if __name__ == "__main__":
+    model = load_yolov5()
+    detect_from_webcam(
+        model,
+        source=camera_source(),
+        box_distance_threshold=20,
+    )

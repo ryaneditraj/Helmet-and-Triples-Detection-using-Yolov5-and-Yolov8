@@ -1,0 +1,5 @@
+# Public repository hints. The Flask app serves its own robots.txt for the host it is running on.
+User-agent: *
+Allow: /
+
+Sitemap: https://github.com/ryaneditraj/Helmet-and-Triples-Detection-using-Yolov5-and-Yolov8/blob/main/sitemap.xml

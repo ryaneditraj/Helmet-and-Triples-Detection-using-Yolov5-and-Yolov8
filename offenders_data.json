@@ -1,19 +1,11 @@
 {
     "triples": {
-        "sharvin": {
-            "name": "Sharvin Hariharan",
-            "offence": "Triple Riding",
-            "number_plate": "tn75af3897",
-            "fine": 1000,
-            "location": "mvc",
-            "fine_applied": true
-        },
         "THRIPLES_session_20250731_123403": {
-            "name": "Ryan",
+            "name": "",
             "offence": "Triple Riding",
-            "number_plate": "109201920192",
+            "number_plate": "",
             "fine": 1210,
-            "location": "Chennai",
+            "location": "",
             "fine_applied": true
         },
         "THRIPLES_session_20250731_150436": {
@@ -33,11 +25,11 @@
             "fine_applied": false
         },
         "THRIPLES_session_20250801_144149": {
-            "name": "Funny guy",
+            "name": "",
             "offence": "Triple Riding",
-            "number_plate": "tn75af3897",
+            "number_plate": "",
             "fine": 100,
-            "location": "Chennai",
+            "location": "",
             "fine_applied": false
         },
         "THRIPLES_session_20250801_144933": {
@@ -153,7 +145,7 @@
             "fine_applied": false
         },
         "THRIPLES_session_20250802_143948": {
-            "name": "Gopal",
+            "name": "",
             "offence": "Triple Riding",
             "number_plate": "",
             "fine": 0,
@@ -209,9 +201,9 @@
             "fine_applied": false
         },
         "THRIPLES_session_20250802_185318": {
-            "name": "Fabio",
+            "name": "",
             "offence": "Triple Riding",
-            "number_plate": "tn687yi7t786",
+            "number_plate": "",
             "fine": 0,
             "location": "",
             "fine_applied": true
@@ -239,17 +231,17 @@
             "fine": 0,
             "location": "",
             "fine_applied": false
+        },
+        "triple_session_redacted": {
+            "name": "",
+            "offence": "Triple Riding",
+            "number_plate": "",
+            "fine": 1000,
+            "location": "",
+            "fine_applied": true
         }
     },
     "no_helmet": {
-        "idk tbh": {
-            "name": "",
-            "offence": "No Helmet",
-            "number_plate": "",
-            "fine": 0,
-            "location": "",
-            "fine_applied": false
-        },
         "NO_HELMET_session_20250731_123611": {
             "name": "",
             "offence": "No Helmet",
@@ -291,11 +283,11 @@
             "fine_applied": false
         },
         "offend": {
-            "name": "IDK",
+            "name": "",
             "offence": "No Helmet",
-            "number_plate": "tn75ar2345",
+            "number_plate": "",
             "fine": 10000,
-            "location": "sis",
+            "location": "",
             "fine_applied": true
         },
         "NO_HELMET_session_20250731_215621": {
@@ -475,9 +467,9 @@
             "fine_applied": false
         },
         "NO_HELMET_session_20250801_132111": {
-            "name": "DORIN BOSCO ",
+            "name": "",
             "offence": "No Helmet",
-            "number_plate": "TN75AF3897",
+            "number_plate": "",
             "fine": 0,
             "location": "",
             "fine_applied": false
@@ -675,11 +667,11 @@
             "fine_applied": false
         },
         "NO_HELMET_session_20250801_143929": {
-            "name": "Ryan",
+            "name": "",
             "offence": "No Helmet",
-            "number_plate": "wuytweuy9",
+            "number_plate": "",
             "fine": 1010,
-            "location": "sis",
+            "location": "",
             "fine_applied": true
         },
         "NO_HELMET_session_20250801_143941": {
@@ -1899,6 +1891,14 @@
             "fine_applied": false
         },
         "NO_HELMET_session_20250808_153644": {
+            "name": "",
+            "offence": "No Helmet",
+            "number_plate": "",
+            "fine": 0,
+            "location": "",
+            "fine_applied": false
+        },
+        "no_helmet_note_redacted": {
             "name": "",
             "offence": "No Helmet",
             "number_plate": "",
