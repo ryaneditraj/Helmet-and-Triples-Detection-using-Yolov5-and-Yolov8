@@ -1,0 +1,28 @@
+name: Bug report
+description: Something in detection or the dashboard does not behave as it should.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you expect, and what did you see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run python offender.py
+        2. Open a capture
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python version, operating system, and whether you used a webcam, OBS, or a video device index.
+    validations:
+      required: false
